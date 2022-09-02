@@ -56,6 +56,10 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
+  width:90%;
+  margin:auto;
+  min-width:600px;
+  max-width:2000px
 }
 
 /*
