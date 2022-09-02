@@ -56,10 +56,22 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
-  width:90%;
-  margin:auto;
-  min-width:600px;
-  max-width:2000px
+  width: 1920px;
+  height: 1080px;
+}
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+  .view {
+      width: 400px;
+  }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  .view {
+      width: 600px;
+  }
 }
 
 /*
