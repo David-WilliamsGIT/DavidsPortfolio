@@ -56,8 +56,17 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
-  width: 1920px;
-  height: 1080px;
+  width: 100%;
+}
+
+@media only screen 
+  and (min-device-width : 2560px)
+  and (max-device-width : 1440px) {
+}
+
+@media only screen 
+  and (min-device-width : 1920px)
+  and (max-device-width : 1080px) {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
